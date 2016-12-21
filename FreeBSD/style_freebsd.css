@@ -1,0 +1,150 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#container{
+	width: 1000px;
+	height: 1000px;
+}
+	#header{
+		background-color: #680200;		
+		width: 950px;
+		padding: 5px 25px;
+	}
+	#logo{
+		display: inline-block;
+	}
+	#motto{
+		display: inline-block;
+		vertical-align: top;
+		width: 250px;
+		height: 20px;
+		font-family: "comic sans ms narrow";
+		font-size: 18px;
+		font-weight: 400;
+		color: white;
+		padding: 20px 5px 20px 0px;
+	}
+	#topbar ul li{
+		display: inline-block;
+	}
+	#topbar{
+		display: inline-block;
+		vertical-align: top;
+		position: relative;
+		left: 180px;
+		width: 250px;
+		height: 60px;
+		font-size: 12px;
+		font-family: tahoma;
+		color: white;
+	}
+	#topbar a{
+		color: #f3c639;
+	}
+	#searchbar{
+		width: 130px;
+		height: 20px;
+		margin: 10px 0px;
+		position: relative;
+		left: 52px;
+	}
+	#button{
+		background-color: #680200;
+		height: 20px;
+		color: white;
+		font-family: tahoma;
+		font-size: 12px;
+		padding: 2px 5px;
+		border-color: white;
+		position: relative;
+		left: 52px;
+	}
+	#menu{
+		background-color: #e5e5e5;
+		padding: 3px 0px 3px 25px;
+		width: 975px;
+		height: 24px;
+	}
+	#menu ul li {
+		display: inline-block;
+	}
+	#menu a{
+		text-decoration: none;
+		color: #66666e;
+		font-family: tahoma;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	/* Between these comments is to have make the | after every link except for the last*/
+	#menu ul li:after{
+		content: "|";
+		padding: 15px;
+		color: #b4b4b4;
+	}
+	#menu ul li:last-child:after{
+		content: none;
+	}
+	/* Need to do this even if you used margin-right to create the dividing line*/
+	#whitespace{
+		width: 1000px;
+		padding: 20px;
+	}
+	#navigation{
+		background-color: #eeeeee;
+		height: 200px;
+		width: 140px;
+		margin-right: 15px;
+		padding: 10px;
+		display: inline-block;
+		vertical-align: top;
+	}
+	#navigation li{
+		display: inline-block;
+	}
+	#navigation li:before{
+		content: "»";
+		padding: 5px;
+		color: #950500;
+	}
+	#navigation a{
+		color: #950500;
+		font-family: tahoma;
+		font-size: 12px;
+	}
+	#main{
+		display: inline-block;
+		width: 785px;
+		font-family: tahoma;
+		font-size: 14px;
+	}
+	#main h2{
+		color: #950500;
+		font-size: 18px;
+	}
+	#main h3{
+		color: #950500;
+		font-size: 15px;
+		margin: 12px 0px;
+	}
+	#main h4{
+		color: #950500;
+		font-size: 13px;
+		margin: 10px 0px;
+	}
+	.insteadofHR{
+		border-style: solid;
+		border-width: 0px;
+		border-bottom-width: 2px;
+		padding: 0px 0px 10px;
+		border-color: #808080;
+	}
+	#main a{
+		color: #950500;
+	}
+	.mainlists{
+		padding-left: 40px;
+	}
+	.dates{
+		font-weight: bold;
+	}
